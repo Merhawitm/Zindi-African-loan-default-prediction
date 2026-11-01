@@ -1,0 +1,17 @@
+# Challenge data belongs to the client -- never commit it
+data/*
+!data/.gitkeep
+
+# Model training artifacts
+catboost_info/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.vscode/
